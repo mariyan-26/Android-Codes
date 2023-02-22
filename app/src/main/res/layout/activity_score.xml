@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Score">
+    <!-- Placeholder Team 1 Starts-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Name:"
+        android:textSize="24dp"
+        android:id="@+id/text25"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Name"
+        android:textSize="24dp"
+        android:id="@+id/text3"
+        android:layout_toRightOf="@+id/text25"/>
+    <!-- Placeholder Team 1 & Value of Team 1 Ends-->
+
+    <!-- Placeholder Team 2 Starts-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Name:"
+        android:textSize="24dp"
+        android:layout_below="@id/text3"
+        android:id="@+id/text26"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Name"
+        android:textSize="24dp"
+        android:layout_below="@id/text3"
+        android:layout_toRightOf="@id/text26"
+        android:id="@+id/text11"/>
+    <!-- Placeholder Team 2 & Value of Team 2 Ends-->
+
+    <!-- Placeholder Date Starts-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date:"
+        android:textSize="24dp"
+        android:layout_below="@id/text26"
+        android:id="@+id/text27" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date:"
+        android:textSize="24dp"
+        android:layout_below="@id/text11"
+        android:layout_toRightOf="@+id/text27"
+        android:id="@+id/text12"/>
+    <!-- Placeholder Date & Value of Team 2 Ends-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score Board"
+        android:layout_centerHorizontal="true"
+        android:textSize="28dp"
+        android:textColor="#7D4E44"
+        android:layout_below="@+id/text12"
+        android:id="@+id/text4"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Score:"
+        android:textSize="24dp"
+        android:layout_below="@id/text4"
+        android:id="@+id/text28" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text4"
+        android:text="0 "
+        android:textSize="24dp"
+        android:layout_toRightOf="@+id/text28"
+        android:id="@+id/edit3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Runs"
+        android:layout_centerHorizontal="true"
+        android:textColor="#7D4E44"
+        android:textSize="18dp"
+        android:layout_below="@+id/edit3"
+        android:id="@+id/text5"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text5"
+        android:layout_marginLeft="-165dp"
+        android:layout_marginTop="29dp"
+        android:layout_toRightOf="@+id/text5"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text5"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="29dp"
+        android:layout_toRightOf="@id/text5"
+        android:text="2"/>
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn3"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="22dp"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn4"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="21dp"
+        android:layout_toRightOf="@id/btn5"
+        android:text="6"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn6"
+        android:layout_marginTop="62dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/btn7"
+        android:text="NB"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn6"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="62dp"
+        android:id="@+id/btn8"
+        android:text="WD"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn7"
+        android:layout_marginTop="52dp"
+        android:text="OVERS:"
+        android:layout_marginLeft="130dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn7"
+        android:layout_marginTop="52dp"
+        android:text="0.0"
+        android:layout_marginLeft="190dp"/>
+
+
+</RelativeLayout>
